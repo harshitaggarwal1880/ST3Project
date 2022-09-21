@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <div id="inputbox"> 
+        <h1> Enter Weight on Earth </h1>
+        <input id="woe" type="number">
+    </div>
+
+
+    <div id="planetbox">
+     
+    <div class="planetitem"> 
+        <button onclick="weight(0.38,'Mercury')" class="mercury planets"> </button>
+    </div> 
+
+    <div class="planetitem"> 
+        <button onclick="weight(0.91,'Venus')" class="venus planets"></button>
+    </div> 
+
+    <div class="planetitem"> 
+        <button onclick="weight(1,'Earth')" class="earth planets"></button>
+    </div>
+     
+    <div class="planetitem"> 
+        <button onclick="weight(0.38,'Mars')" class="mars planets"></button>
+    </div>
+
+    <div class="planetitem"> 
+        <button onclick="weight(2.34, 'Jupyter')" class="jupyter planets"></button>
+    </div> 
+
+    <div class="planetitem"> 
+        <button onclick="weight(1.06,'Saturn')" class="saturn planets"></button>
+    </div> 
+
+    <div class="planetitem"> 
+        <button onclick="weight(0.92,'Uranus')" class="uranus planets"> </button>
+    </div> 
+    
+
+    <div class="planetitem"> 
+        <button onclick="weight(1.19, 'Neptune')" class="neptune planets"> </button>
+    </div> 
+    
+
+    </div>
+
+    <!-- <div id="labelsbox">
+        <div class="labels" onclick="weight(0.38,'Mercury')" > Mercury </div> 
+        <div class="labels" onclick="weight(0.91,'Venus')"> Venus </div> 
+        <div class="labels" onclick="weight(1,'Earth')" class> Earth </div> 
+        <div class="labels" onclick="weight(0.38,'Mars')"> Mars </div> 
+        <div class="labels" onclick="weight(2.34, 'Jupyter')"> Jupyter </div> 
+        <div class="labels" onclick="weight(1.06,'Saturn')" > Saturn </div> 
+        <div class="labels" onclick="weight(0.92,'Uranus')"> Uranus </div> 
+        <div class="labels" onclick="weight(1.19, 'Neptune')"> Neptune </div> 
+    </div> -->
+
+    <div id="box"> 
+    <div id="outputbox">
+        <h1> Your Weight on <span id="planetname"> Planet </span> :- </h1> 
+        <div id="output"> </div> 
+    </div>
+    </div> 
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>

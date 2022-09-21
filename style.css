@@ -1,0 +1,180 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-image: url("Images/space1.jpg");
+    background-color: transparent;
+    background-position:center;
+    background-size: cover;
+    background-repeat: repeat;
+    font-family: cursive;
+}
+
+
+
+
+
+
+
+#inputbox{
+    text-align: center;
+    margin-top: 1%;
+    /* background-color: aqua; */
+    padding: 3%;
+}
+
+#inputbox > h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 2.5em;
+    margin: 1%;
+}
+
+#inputbox > input{
+    border: 2px solid orange;
+    border-radius: 50px; 
+    height: 6vh;
+    width: 20vw;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+
+
+
+
+.planets{
+    height: 150px;
+    /* margin: 0px; */
+    width: 150px;
+    
+    background-color: transparent;
+    background-size: cover;
+
+    border: 0;
+
+}
+
+.planetitem{
+    display: inline-block;
+    background-color: transparent;
+
+    border: 0;
+}
+
+
+.mercury{
+    background-image: url("Images/mercurybg.png");
+    width: 150px;
+    margin-top: 50%;
+}
+
+.venus{
+    background-image: url("Images/venusbg.png");
+    width: 200px;
+    margin-top: 20%;
+
+}
+
+.earth{
+    background-image: url("Images/earthbg.png");
+    height: 150px;
+    width: 170px;
+    margin-top: 10%;
+
+}
+
+.mars{
+    background-image: url("Images/marsbg.png");
+}
+
+.jupyter{
+    background-image: url("Images/jupyterbg.png");
+}
+
+.saturn{
+    background-image: url("Images/saturnbg.png");
+    height: 180px;
+    width: 200px;
+}
+
+.uranus{
+    background-image: url("Images/uranusbg.png");
+    margin-top: 30%;
+
+}
+
+.neptune{
+    background-image: url("Images/neptunebg.png");
+    margin-top: 50%;
+
+}
+
+
+
+#planetbox{
+    display: flex;
+    margin-top: 1%;
+    justify-content: center;
+
+    border: 0;
+
+}
+
+
+
+
+
+
+.labels{
+    color: greenyellow;
+    font-size: larger;
+    font-weight: bolder;
+    
+    display: inline-block;
+    width: 13%;
+    text-align: center;
+}
+
+#labelsbox{
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#box{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#outputbox{
+    background-image: url("Images/space.jpg");
+    text-align: center;
+    margin-top: 1%;
+    padding-top: 2%;
+    height: 17vh;
+    width: 50vw;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
+
+
+#outputbox > h1{
+    color: rgb(255, 251, 7);
+}
+
+#outputbox > div{
+    color: rgb(13, 223, 156);
+    font-weight: bold;
+    font-size: 2em;
+}
+
+
+
